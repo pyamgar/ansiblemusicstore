@@ -41,7 +41,7 @@ node {
                     def uploadSpec= """{
                         "files": [{
                         "pattern": "/home/mtadminnuvepro/.jenkins/workspace/kalingamusic/kalingamusic/target/*.war",
-                        "target": "kalingamusic"}]
+                        "target": "Kalingamusic"}]
                     }"""
         server.upload(uploadSpec)
         
@@ -52,7 +52,7 @@ node {
     def downloadSpec = """{
     "files": [
     {
-      "pattern": "kalingamusic/*.war",
+      "pattern": "Kalingamusic/*.war",
       "target": "/home/mtadminnuvepro/artifacts/"
       
     }
