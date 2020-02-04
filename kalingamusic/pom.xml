@@ -15,7 +15,7 @@
 	<name>kalingamusic</name>
 	<description>this a kalinga music webapp</description>
 
-		<properties>
+	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -35,11 +35,7 @@
 			<version>4.8.2</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-    <groupId>org.modelmapper</groupId>
-    <artifactId>modelmapper</artifactId>
-    <version>0.7.5</version>
-</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -65,7 +61,7 @@
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-jasper</artifactId>
-			<version>8.5.30</version>
+			<version>9.0.10</version>
 		</dependency>
 		<!-- JSTL tag lib -->
 		<dependency>
@@ -104,5 +100,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	</project>
-	
+</project>
+<!-- pom by devarakonda chakradhar -->
