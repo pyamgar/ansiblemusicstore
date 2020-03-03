@@ -29,3 +29,4 @@ node {
    sh label: '', script: 'docker-compose up -d --build'
   }
  }
+}
