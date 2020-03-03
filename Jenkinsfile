@@ -21,7 +21,9 @@ node {
    stage('Maven-Package') {
    sh label: '', script: 'mvn package'
   }
- 
+ stage('Downstream Build -- mabl'){
+     build 'mabl'
+    }
    stage('Docker-Stage-Deployment') {
    sh label: '', script: 'docker-compose up -d --build'
   }
