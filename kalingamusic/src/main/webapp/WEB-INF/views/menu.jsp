@@ -15,6 +15,7 @@
 <body>
 <div class="container">
   <h2 class="text-success">Welcome to kalinga music !</h2>
+  <p class="text-dark">this is a place to heal your self </p>
   <p class="text-dark">Mabl auto healing </p>
   <div class="list-group">
     <a href="addalbum" class="list-group-item list-group-item-warning">Add Album</a>
