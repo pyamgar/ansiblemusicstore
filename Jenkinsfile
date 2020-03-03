@@ -1,6 +1,4 @@
 node {
- notify('Job Started') 
-
   stage('Git-Checkout') {
    git 'https://github.com/chakri1998/ansiblemusicstore.git'
   }
