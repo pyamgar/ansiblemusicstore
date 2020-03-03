@@ -22,7 +22,7 @@ node {
    sh label: '', script: 'mvn package'
   }
    stage('Mabl') {
-  mabl applicationId: 'GvAA6ztG9HOXgwyeKgmC4Q-a', continueOnMablError: false, continueOnPlanFailure: false, disableSslVerification: false, environmentId: 'AeWW932E6wqGVMMD6JjRQw-e', labels: [], restApiKey: <object of type hudson.util.Secret>
+  mabl applicationId: 'GvAA6ztG9HOXgwyeKgmC4Q-a', continueOnMablError: false, continueOnPlanFailure: false, disableSslVerification: false, environmentId: 'AeWW932E6wqGVMMD6JjRQw-e',restApiKey: <object of type hudson.util.Secret>
   }
 
    stage('Docker-Stage-Deployment') {
