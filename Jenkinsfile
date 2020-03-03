@@ -1,8 +1,6 @@
 node {
- try  {
  notify('Job Started') 
 
-     
   stage('Git-Checkout') {
    git 'https://github.com/chakri1998/ansiblemusicstore.git'
   }
@@ -30,3 +28,4 @@ node {
    stage('Docker-Stage-Deployment') {
    sh label: '', script: 'docker-compose up -d --build'
   }
+ }
