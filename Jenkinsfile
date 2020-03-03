@@ -21,9 +21,7 @@ node {
    stage('Maven-Package') {
    sh label: '', script: 'mvn package'
   }
-   stage('Mabl') {
-mabl applicationId: 'GvAA6ztG9HOXgwyeKgmC4Q-a', continueOnMablError: false, continueOnPlanFailure: false, disableSslVerification: false, environmentId: 'AeWW932E6wqGVMMD6JjRQw-e', labels: [], restApiKey: 'V0vrmAs1ZMY5gqYhNSoKwg'  }
-
+ 
    stage('Docker-Stage-Deployment') {
    sh label: '', script: 'docker-compose up -d --build'
   }
